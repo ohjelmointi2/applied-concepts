@@ -1,6 +1,8 @@
 # Soveltavat tehtävät
 
-Tämä kurssin viimeinen tehtävä sisältää erilaisia harjoitteita, joiden avulla syvennetään ja sovelletaan aikaisempien viikkojen aiheita. Tehtävien ratkaisemiseksi on annettu enemmän vapauksia, joten voit ratkaista tehtäviä monilla eri tavoilla.
+Tämä kurssin viimeinen tehtävä sisältää erilaisia harjoitteita, joiden avulla syvennetään ja sovelletaan aikaisempien viikkojen aiheita. Tehtävien ratkaisemiseksi on annettu enemmän vapauksia, joten voit ratkaista tehtäviä monilla eri tavoilla. Suosittelemmekin pohtimaan, olisiko erillisten luokkien luominen, stream-operaatiot tai vaikka map-tietorakenne avuksi eri ongelmien ratkaisemisessa.
+
+Tehtävien ratkaiseminen edellyttää tiedostojen käsittelyä. Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö. Esimerkiksi Windows-käyttäjät voivat määritellä Eclipsen merkistökoodauksen [tämän kuvan mukaisesti](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg). Tiedostojen lukemisessa sinua auttavat esimerkiksi Javan [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html)- ja [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html)-luokat. Ohjelmakoodissasi vastaavasti käytä aina merkistöjä, esim. `List<String> rivit = Files.readAllLines(tiedostonPolku, StandardCharsets.UTF_8);`.
 
 
 ## Tehtävien testaaminen
@@ -11,10 +13,9 @@ Tämä kurssin viimeinen tehtävä sisältää erilaisia harjoitteita, joiden av
 Palauta tehtävä Gitin `add`-, `commit`- ja `push`-komennoilla edellisten tehtävien tavoin. Voit lähettää ratkaisusi arvioitavaksi niin monta kertaa kuin on tarpeen tehtävän määräaikaan asti. Varmista kuitenkin, että viimeisin suoritus tuottaa parhaat pisteet, koska vain viimeisimmät pisteet jäävät voimaan.
 
 
+## Osa 1: Git-statistiikka *()*
 
-## Osa 1: Annotaatiot *()*
-
-## Osa 2: Muutoslogi *()*
+## Osa 2: Git-muutoslogi *()*
 
 ```Commit 7b9f1e by NewbieNate (Parent: None)
 Initial Commit - Hello World!
