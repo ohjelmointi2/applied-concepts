@@ -1,94 +1,65 @@
-# Java & Gradle -projektipohja
+# Soveltavat tehtävät
 
-Tämä repositorio sisältää valmiiksi määritellyt Gradle-skriptit sekä [.gitignore](./.gitignore)- ja [.gitattributes](./.gitattributes)-tiedostot Java-projektien pohjaksi. Projektipohjan käyttö edellyttää [Javan versiota 17 tai uudempaa](https://code.visualstudio.com/docs/java/java-tutorial#_installing-a-java-development-kit-jdk).
-
-
-## Gradle ja "wrapper scripts"
-
-[Gradle](https://gradle.org/) on suosittu "build automation"-työkalu, joka helpottaa projektin sekä sen riippuvuuksien hallintaa. Gradlew-skriptit (wrapper scripts) ovat osa Gradlea ja ne mahdollistavat Gradlen käytön ilman, että sinun tarvitsee asentaa Gradle erikseen. Voit ajaa projektiin liittyviä Gradle-tehtäviä suoraan näiden skriptien kautta.
+Tämä kurssin viimeinen tehtävä sisältää erilaisia harjoitteita, joiden avulla syvennetään ja sovelletaan aikaisempien viikkojen aiheita. Tehtävien ratkaisemiseksi on annettu enemmän vapauksia, joten voit ratkaista tehtäviä monilla eri tavoilla.
 
 
-### Gradlen käyttö
+## Tehtävien testaaminen
 
-Skriptit löytyvät projektitiedostojen juuresta. Voit käyttää niitä esim. seuraavasti:
 
-**Unix**:
+## Tehtävän palauttaminen
 
-```bash
-./gradlew build    # kääntää projektin ja tuottaa suoritettavan JAR-tiedoston
-./gradlew test     # suorittaa projektiin liittyvät testit
+Palauta tehtävä Gitin `add`-, `commit`- ja `push`-komennoilla edellisten tehtävien tavoin. Voit lähettää ratkaisusi arvioitavaksi niin monta kertaa kuin on tarpeen tehtävän määräaikaan asti. Varmista kuitenkin, että viimeisin suoritus tuottaa parhaat pisteet, koska vain viimeisimmät pisteet jäävät voimaan.
+
+
+
+## Osa 1: Annotaatiot *()*
+
+## Osa 2: Muutoslogi *()*
+
+```Commit 7b9f1e by NewbieNate (Parent: None)
+Initial Commit - Hello World!
+Starting my coding journey. Decided to say "Hello" to the world!
+
+Commit a3d8e7 by ProgPete (Parent: 7b9f1e)
+Added comments - Explained 'Hello World'
+Hey there, Nate! Added comments to your code, explaining what each line does. Welcome aboard!
+
+Commit 4f2a1d by EagerElla (Parent: a3d8e7)
+Added Function - Counting Sheep
+Created a function to count sheep. Learning to make my code more functional, quite literally!
+
+Commit e6c5b2 by LoopyLou (Parent: 4f2a1d)
+Merge branch 'master' into loop-feature
+Adding a loop to count sheep indefinitely. Sleepless nights led to sheep-filled code!
+
+Commit 1d9g4z by NewbieNate (Parent: e6c5b2)
+Fixed Loop Bug - Sheep now sleep
+Oops! Fixed the loop. Turns out, the sheep were sleep-deprived. Now they can rest peacefully.
+
+Commit 8h5k2y by EagerElla (Parent: 1d9g4z)
+Refactor - Shepherd Class
+Introduced a Shepherd class to manage the sheep better. Feeling like a digital shepherd now!
+
+Commit m3n5p8 by ProgPete (Parent: 8h5k2y)
+Documentation Update - Shepherd class explained
+Documented the Shepherd class methods. Now we're herding sheep like pros!
+
+Commit j7i2k9 by LoopyLou (Parent: m3n5p8)
+Fix typo - Shepherd 'sheep' to 'sheep_count'
+Typo fix! The shepherd should count the sheep_count, not the sheep itself. Phew!
+
+Commit o1z6x9 by NewbieNate (Parent: j7i2k9)
+Merge branch 'refactor' into master
+Merging the refactor changes. Thanks for the help, team! Learning and growing together.
 ```
 
-**Windows**:
+## Osa 3: Muutoslogi rekursiolla *()*
 
-```powershell
-.\gradlew.bat build    # kääntää projektin ja tuottaa suoritettavan JAR-tiedoston
-.\gradlew.bat test     # suorittaa projektiin liittyvät testit
-```
-
-Ensimmäisen komennon suorittamisen yhteydessä Gradle lataa tarvittavat riippuvuudet automaattisesti.
+## Osa 4: Rinnakkaisuus *()*
 
 
-## .gitignore ja .gitattributes
+## Lisenssi ja tekijät
 
-Tämä pohja sisältää myös valmiiksi määritellyt `.gitignore`- ja `.gitattributes`-tiedostot. `.gitignore`:ssa on määritelty, mitkä tiedostot jätetään versionhallinnan ulkopuolelle, kun taas `.gitattributes`-tiedostossa on määritetty eri tiedostotyypeille yhtenäiset rivinvaihtomerkit.
+Tämän tehtävän on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA -lisenssillä](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Voit muokata näitä tiedostoja tarpeidesi mukaan.
-
-
-## Miten käytän tätä pohjaa
-
-1. Forkkaa tämä projekti omalle GitHub-tilillesi. Käytä "Fork" -painiketta tämän projektin GitHub-sivulla.
-
-2. Kloonaa forkkaamasi projekti omalle tietokoneellesi:
-
-   ```bash
-   git clone https://github.com/OMA_KÄYTTÄJÄTUNNUKSESI/projekti.git
-   ```
-
-3. Muokkaa projektin tiedostoja ja koodia tarpeidesi mukaan.
-
-4. Käytä Gradle-skriptejä suorittaaksesi erilaisia tehtäviä projektissasi.
-
-5. Lisää oma koodisi ja muokatut tiedostot Git-versionhallintaan:
-
-   ```bash
-   git add tiedosto1 tiedosto2 tiedosto3
-   git commit -m "Ensimmäinen commit"
-   ```
-
-6. Pushaa muutokset GitHubiin omalle forkkaamallesi projektille:
-
-   ```bash
-   git push origin master
-   ```
-
-
-## Projektin avaaminen Eclipsessä
-
-1. Avaa Eclipse ja valitse `File -> Open Projects from File System...`.
-
-2. Valitse `Directory...` ja valitse projektin kansio, jonka olet aiemmin kloonannut.
-
-3. Klikkaa `Finish` avataksesi projektin Eclipse-ssä.
-
-
-## Projektin avaaminen VS Codessa
-
-1. Avaa Visual Studio Code ja valitse `File -> Open Folder...`.
-
-2. Valitse projektin kansio, jonka olet aiemmin kloonannut ja klikkaa `Open`.
-
-3. Voit nyt muokata, rakentaa ja suorittaa projektiasi Visual Studio Codessa.
-
-
-
-## Lisätietoja
-
-Lisätietoja Gradlesta ja sen käytöstä löydät [Gradlen virallisilta verkkosivuilta](https://gradle.org/).
-
-Hyvää koodausta ja onnea projektisi kanssa!
-
------
-
-Tämän tiedoston luonnissa on hyödynnetty [GhatGPT 3.5](https://chat.openai.com/) -kielimallia.
+Tehtävänannon, käsiteltävien tiedostojen sekä lähdekoodien toteutuksessa on hyödynnetty ChatGPT 3.5:ttä sekä GitHub copilot -tekoälyavustinta.
