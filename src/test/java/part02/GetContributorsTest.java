@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Collection;
+import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
 
@@ -61,8 +62,8 @@ public class GetContributorsTest {
 
         Collection<String> contributors = solution.getContributors(commits);
 
-        assertTrue(contributors.contains("SpeedySamantha"), "contains the first contributor");
-        assertTrue(contributors.contains("InnovationIsaac"), "contains the second contributor");
+        assertEquals(1, Collections.frequency(contributors, "SpeedySamantha"), "contains the first contributor once");
+        assertEquals(1, Collections.frequency(contributors, "InnovationIsaac"), "contains the second contributor once");
 
         assertEquals(2, contributors.size(), "there should not be duplicates in the contributors");
     }
