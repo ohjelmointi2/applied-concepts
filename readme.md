@@ -17,7 +17,8 @@ Palauta tehtävä Gitin `add`-, `commit`- ja `push`-komennoilla edellisten teht�
 
 ## Osa 2: Git-muutoslogi *()*
 
-```Commit 7b9f1e by NewbieNate (Parent: None)
+```
+Commit 7b9f1e by NewbieNate (Parent: None)
 Initial Commit - Hello World!
 Starting my coding journey. Decided to say "Hello" to the world!
 
@@ -53,6 +54,21 @@ Commit o1z6x9 by NewbieNate (Parent: j7i2k9)
 Merge branch 'refactor' into master
 Merging the refactor changes. Thanks for the help, team! Learning and growing together.
 ```
+
+```mermaid
+gitGraph
+  checkout main
+  commit id: "7b9f1e"
+  commit id: "a3d8e7"
+  commit id: "4f2a1d"
+  commit id: "e6c5b2"
+  commit id: "1d9g4z"
+  commit id: "8h5k2y"
+  commit id: "m3n5p8"
+  commit id: "j7i2k9"
+  commit id: "o1z6x9"
+```
+
 
 ## Osa 3: Muutoslogi rekursiolla *()*
 
