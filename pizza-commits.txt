@@ -12,7 +12,7 @@ Debating the most pressing issue in the pizza world: cheese placement!
 
 Commit e6c5b2 by CurrencyCaptainCynthia (Parent: 4f2a1d)
 Added - Multi-Currency Magic 🌍💵
-Implemented currency conversion – pizzas for all, no matter the currency zone!
+Implemented currency conversion - pizzas for all, no matter the currency zone!
 
 Commit 1d9g4z by InteropIan (Parent: e6c5b2)
 Fix IDE Compatibility Issue - VS Code vs. Eclipse Wrestling Match 🤼‍♂️
@@ -32,19 +32,19 @@ Merging the never-ending cheese saga. Cheese placement remains a delicious myste
 
 Commit r4s5t6 by ToppingTina (Parent: x1y2z3)
 Fix Bug - Pineapple Limit: No Pineapple Tsunamis 🚫🍍🌊
-Capped pineapple toppings – sorry, no pineapple tsunamis allowed!
+Capped pineapple toppings - sorry, no pineapple tsunamis allowed!
 
 Commit k7l8m9 by WorkflowWoesWalter (Parent: r4s5t6)
 Fix GitHub Actions - Action-Packed Pizza Rescue 🚨🍕
-Rescued the failing GitHub Actions – no more pizza emergency alerts!
+Rescued the failing GitHub Actions - no more pizza emergency alerts!
 
 Commit o1p2q3 by CurrencyCaptainCynthia (Parent: k7l8m9)
 Discussion - Bitcoin Payment & Crypto Craze 🍕💰
-Exploring Bitcoin payments – now even the cryptoverse craves pizza!
+Exploring Bitcoin payments - now even the cryptoverse craves pizza!
 
 Commit t4u5v6 by MSWordMishapMia (Parent: o1p2q3)
 Fix Code Edit - MS Word Strikes Again! 🤦‍♀️📝
-Discovered someone edited code with MS Word – farewell, formatting chaos!
+Discovered someone edited code with MS Word - farewell, formatting chaos!
 
 Commit z9a8b7 by ToolTroubleTerry (Parent: t4u5v6)
 Fix Tool Compatibility - Dependency Dance Party 💃🎶
@@ -68,7 +68,7 @@ Post-launch chaos! Scaling to handle the overflowing orders and server fires.
 
 Commit h7j8k9 by CelebrationCathy (Parent: b1c2d3)
 Celebration Time - Pizza Party for the Team 🎉🍕🥳
-Celebrating the successful launch with a massive pizza party – our own creation, of course!
+Celebrating the successful launch with a massive pizza party - our own creation, of course!
 
 Commit i4l5m6 by FeedbackFrankie (Parent: h7j8k9)
 Added - Customer Feedback Feature 📝🗣️
@@ -80,7 +80,7 @@ Optimizing delivery routes to get those pizzas to hungry customers faster!
 
 Commit w7e8r9 by ExperimentingEddie (Parent: n3o4p5)
 Discussion - Pizza Topping Trials 🧀🌶️🥑
-Experimenting with new toppings – cheese, chili, and avocado, oh my!
+Experimenting with new toppings - cheese, chili, and avocado, oh my!
 
 Commit q1s2w3 by BugBusterBella (Parent: w7e8r9)
 Fix Bug - Address Validation Bug 🏠🔍🐞
@@ -88,11 +88,11 @@ Found and fixed an address validation bug. No more lost pizza destinations!
 
 Commit f5g6h7 by ExpansionEthan (Parent: q1s2w3)
 Expansion Plans - Scaling for Global Domination 🌍🚀
-Planning for global pizza domination – one slice at a time!
+Planning for global pizza domination - one slice at a time!
 
 Commit u7v8w9 by CreativeCameron (Parent: f5g6h7)
 Added - Pizza Customization Feature 🍕🎨
-Allowing customers to design their pizzas – pizza artistry at its finest!
+Allowing customers to design their pizzas - pizza artistry at its finest!
 
 Commit r3f4g5 by SpeedySamantha (Parent: u7v8w9)
 Optimization - Turbocharged Ordering System 🏎️🚀🍕
@@ -100,11 +100,11 @@ Optimizing the ordering system for lightning-fast pizza procurement!
 
 Commit o1l2m3 by InnovationIsaac (Parent: r3f4g5)
 Discussion - Drone Delivery Dream 🚁🍕💭
-Dreaming of drone-delivered pizzas – a futuristic pizza dream!
+Dreaming of drone-delivered pizzas - a futuristic pizza dream!
 
 Commit v4w5x6 by ContinuousChris (Parent: o1l2m3)
 Continuous Improvements - Never-ending Pizza Perfection 🔄🍕🌟
-Constantly improving – the quest for pizza perfection never ends!
+Constantly improving - the quest for pizza perfection never ends!
 
 Commit z1x2c3 by TeamLeadTony (Parent: v4w5x6)
 Update - One Year Anniversary & PizzaPalooza! 🎂🍕🥳
@@ -112,11 +112,11 @@ Celebrating one year of pizza success with a grand PizzaPalooza!
 
 Commit k9i8j7 by VisionaryValerie (Parent: z1x2c3)
 Vision Meeting - The Future of Pizza Tech 🚀🍕🔮
-Dreaming big for the future – pizza tech beyond our wildest dreams!
+Dreaming big for the future - pizza tech beyond our wildest dreams!
 
 Commit b4n5m6 by EverEvolutionElla (Parent: k9i8j7)
 Evolution - Pizza, Tech, & Beyond 🌌🍕💡
-Evolving our pizza platform and tech – reaching for the stars!
+Evolving our pizza platform and tech - reaching for the stars!
 
 Commit l3e4h5 by PizzaLoverPaul (Parent: b4n5m6)
 Final Commit - Pizza Perfection & Beyond 🌟🍕🚀
