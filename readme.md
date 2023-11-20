@@ -1,4 +1,4 @@
-# Soveltavat tehtävät: "commit history"
+# Soveltava tehtävä: "Commit History"
 
 Tämä kurssin viimeinen tehtävärepositorio sisältää erilaisia harjoitteita, joiden avulla syvennetään ja sovelletaan aikaisempien viikkojen aiheita. Tehtävien ratkaisemiseksi on annettu enemmän vapauksia, joten voitkin ratkaista ne monilla eri tavoilla.
 
