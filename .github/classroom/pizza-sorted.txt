@@ -15,7 +15,7 @@ Added - Multi-Currency Magic 🌍💵
 Implemented currency conversion - pizzas for all, no matter the currency zone!
 
 Commit 1d9g4z by InteropIan (Parent: e6c5b2)
-Fix IDE Compatibility Issue - VS Code vs. Eclipse Wrestling Match 🤼‍♂️
+Fix IDE Compatibility Issue - VS Code vs. Eclipse Wrestling Match 🤼
 VS Code and Eclipse fought, but now they're code-wrestling in harmony!
 
 Commit 8h5k2y by ToolTroubleTerry (Parent: 1d9g4z)
@@ -43,7 +43,7 @@ Discussion - Bitcoin Payment & Crypto Craze 🍕💰
 Exploring Bitcoin payments - now even the cryptoverse craves pizza!
 
 Commit t4u5v6 by MSWordMishapMia (Parent: o1p2q3)
-Fix Code Edit - MS Word Strikes Again! 🤦‍♀️📝
+Fix Code Edit - MS Word Strikes Again! 🤦📝
 Discovered someone edited code with MS Word - farewell, formatting chaos!
 
 Commit z9a8b7 by ToolTroubleTerry (Parent: t4u5v6)
