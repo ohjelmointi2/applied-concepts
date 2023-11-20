@@ -145,7 +145,6 @@ Tehtävän tämä osa testataan kahdella erillisella testiluokalla: [`GetContrib
 
 Tehtävän viimeisessä osassa käsiteltävänäsi on "commit log"-tiedosto [pizza-commits.txt](./pizza-commits.txt), jonka sisältämät **commitit ovat epäjärjestyksessä**. Lokitiedoston jokaisessa commitissa on tieto sitä edeltävästä "Parent"-commitista, joiden avulla sinun tulee tulostaa commitit kronologisessa järjestyksessä.
 
-
 Ohjelmasi suorituksen tulee käynnistyä tehtäväpohjassa valmiina olevasta Java-luokasta [part03.Main](./src/main/java/part03/Main.java). `main`-metodin lisäksi saat toteuttaa haluamasi apumetodit ja -luokat vapaasti. Kannustamme kirjoittamaan myös omia testejä ohjelmasi eri osien toimivuuden varmistamiseksi.
 
 Sinulla on vapaat kädet toteuttaa ohjelman sisäisen logiikan parhaaksi katsomallasi tavalla, kunhan se täyttää seuraavat toiminnallisuudet:
