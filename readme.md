@@ -13,9 +13,10 @@ Testeihin perehtyminen ei ole tehtävän suorittamiseksi välttämätöntä, mut
 
 Voit suorittaa yksikkötestit tuttuun tapaan koodieditorisi testaustyökalulla tai Gradle-automaatiotyökalulla.
 
-💡 *Tehtävänannossa määritettyjen metodien ja luokkien nimien, parametrien tai paluuarvojen muuttaminen ei ole sallittua, mutta **suosittelemme** että toteutat niiden lisäksi omia luokkia ja metodeita.*
-
-💡 *Saat kirjoittaa halutessasi lisää testejä, mutta älä muuta tai poista valmiiksi kirjoitettuja testejä.*
+> [!NOTE]
+> Tehtävänannossa määritettyjen metodien ja luokkien nimien, parametrien tai paluuarvojen muuttaminen ei ole sallittua, mutta **suosittelemme** että toteutat niiden lisäksi omia luokkia ja metodeita.
+>
+> Saat kirjoittaa halutessasi lisää testejä, mutta älä muuta tai poista valmiiksi kirjoitettuja testejä.
 
 
 ## Tehtävän palauttaminen
@@ -95,10 +96,10 @@ gitGraph
   commit id: "o1z6x9"
 ```
 
-
-💡 *Vaikka tässä tehtävässä esimerkkinä on Gitin historian käsitteleminen, **sinun ei tarvitse käyttää yhtään uusia Git-komentoja**. Kaikki tehtävän logiikka toteutetaan käyttäen Javan merkkijonoja, metodeja ja luokkia.*
-
-💡 *Tyypillisesti isommassa projektissa on samanaikaisesti useampia kehityshaaroja, jolloin historia näyttää myös monimutkaisemmalta. Tällä kurssilla käytämme ainoastaan yhtä pääkehityshaaraa, joka on nimeltään `master` tai `main`.*
+> [!IMPORTANT]
+> Vaikka tässä tehtävässä esimerkkinä on Gitin historian käsitteleminen, **sinun ei tarvitse käyttää yhtään uusia Git-komentoja**. Kaikki tehtävän logiikka toteutetaan käyttäen Javan merkkijonoja, metodeja ja luokkia.
+> 
+> Tyypillisesti isommassa projektissa on samanaikaisesti useampia kehityshaaroja, jolloin historia näyttää myös monimutkaisemmalta. Tällä kurssilla käytämme ainoastaan yhtä pääkehityshaaraa, joka on nimeltään `master` tai `main`.
 
 
 ## Osa 0: ratkaisun suunnittelu *(valmistelut)*
@@ -168,11 +169,12 @@ Tehtävä tarkastetaan [`PizzaCommitsTest`-yksikkötestiluokalla](./src/test/jav
 .\gradlew.bat test --tests PizzaCommitsTest    # windows
 ```
 
-💡 *Huomaa, että vaikka tehtävässä lajitellaan committeja, ei sitä välttämättä voi ratkaista ainakaan pelkän lajittelualgoritmin avulla. Tämä johtuu siitä, että kahta committia vertaillessa et voi tietää, kumpi tulee ensin, elleivät ne eivät ole toistensa "parent" ja "child". Sinun täytyy siis soveltaa jotain muuta menetelmää.*
-
-💡 *Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö. Windows-käyttäjät voivat määritellä Eclipsen merkistökoodauksen [tämän kuvan mukaisesti](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).*
-
-💡 *Tiedostojen lukemisessa sinua auttavat esimerkiksi Javan [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html)- ja [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html)-luokat. Esimerkki näiden käyttämisestä löytyy valmiina `main`-metodin pohjasta.*
+> [!NOTE]
+> Huomaa, että vaikka tehtävässä lajitellaan committeja, ei sitä välttämättä voi ratkaista ainakaan pelkän lajittelualgoritmin avulla. Tämä johtuu siitä, että kahta committia vertaillessa et voi tietää, kumpi tulee ensin, elleivät ne eivät ole toistensa "parent" ja "child". Sinun täytyy siis soveltaa jotain muuta menetelmää.
+>
+> Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö. Windows-käyttäjät voivat määritellä Eclipsen merkistökoodauksen [tämän kuvan mukaisesti](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).
+>
+> Tiedostojen lukemisessa sinua auttavat esimerkiksi Javan [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html)- ja [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html)-luokat. Esimerkki näiden käyttämisestä löytyy valmiina `main`-metodin pohjasta.
 
 
 ## Lisenssi ja tekijät
