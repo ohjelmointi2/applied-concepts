@@ -163,17 +163,16 @@ The task is checked with the [`PizzaCommitsTest`](./src/test/java/part03/PizzaCo
 ```
 
 > [!NOTE]
-> Huomaa, että vaikka tehtävässä lajitellaan committeja, ei sitä välttämättä voi ratkaista ainakaan pelkän lajittelualgoritmin avulla. Tämä johtuu siitä, että kahta committia vertaillessa et voi tietää, kumpi tulee ensin, elleivät ne eivät ole toistensa "parent" ja "child". Sinun täytyy siis soveltaa jotain muuta menetelmää.
+> Note that although the task involves sorting commits, it may not be solvable using just a sorting algorithm. This is because when comparing two commits, you cannot know which one comes first unless they are "parent" and "child" to each other. Therefore, you will need to apply some other method.
 >
-> Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö. Windows-käyttäjät voivat määritellä Eclipsen merkistökoodauksen [tämän kuvan mukaisesti](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).
+> All project files are saved with UTF-8 encoding, so if you encounter character encoding issues, ensure that both your code and editor are set to the correct encoding. Windows users can set the encoding in Eclipse as shown in [this image](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).
 >
-> Tiedostojen lukemisessa sinua auttavat esimerkiksi Javan [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html)- ja [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html)-luokat. Esimerkki näiden käyttämisestä löytyy valmiina `main`-metodin pohjasta.
+> For reading files, Java's [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html) and (https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html) classes can be helpful. An example of using these can be found in the `main` method template.
 
+## License and authors
 
-## Lisenssi ja tekijät
+This exercise is made by Teemu Havulinna and translated to English by Kalle Ilves and it is licensed under a [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Tämän tehtävän on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA -lisenssillä](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The commit log files used in the task were created with the help of ChatGPT 3.5.
 
-Tehtävässä esiintyvät commit log -tiedostot on luotu käyttäen apuna ChatGPT 3.5:ttä.
-
-Tehtävänannon sekä lähdekoodien toteutuksessa on hyödynnetty ChatGPT 3.5:ttä sekä GitHub copilot -tekoälyavustinta.
+ChatGPT 3.5 language model and GitHub copilot AI assistant has been used to implement the exercise.
