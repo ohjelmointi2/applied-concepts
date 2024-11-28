@@ -98,12 +98,6 @@ gitGraph
 > 
 > Typically, in a larger project, there are multiple development branches simultaneously, making the history appear more complex. In this course, we will use only one main development branch, named `master` or `main`.
 
-## Osa 0: ratkaisun suunnittelu *(valmistelut)*
-
-Aikaisemmista tehtävärepositorioista poiketen tätä tehtävää ei kannata välttämättä tehdä yksi vaihe kerrallaan, vaan sinun kannattaa perehtyä etukäteen kokonaisuuteen ja suunnitella, miten toteutat uudelleenkäytettäviä ratkaisuja, jotka edesauttavat tehtävän kaikkien osien ratkaisemista.
-
-Esimerkiksi uuden `Commit`-luokan luominen voi tuntua alussa "ylimääräiseltä työltä", mutta se voi olla pidemmän päälle kannattavaa. Voit myös jatkokehittää erilaisia apuluokkia tehtävää edistäessäsi oman harkintasi mukaan.
-
 ## Part 0: solution design *(preparation)*
 
 Unlike previous task repositories, it might not be advisable to complete this task one step at a time. Instead, you should familiarize yourself with the entire task in advance and plan how to implement reusable solutions that will help solve all parts of the task.
