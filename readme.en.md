@@ -17,14 +17,13 @@ You can run the unit tests as usual with your code editor's testing tool or with
 >
 > You may write additional tests if you wish, but do not modify or delete the pre-written tests.
 
-## Tehtävän palauttaminen
+## Submitting the task
 
-Palauta tehtävä Gitin `add`-, `commit`- ja `push`-komennoilla edellisten tehtävien tavoin. Voit lähettää ratkaisusi arvioitavaksi niin monta kertaa kuin on tarpeen tehtävän määräaikaan asti. Varmista kuitenkin, että viimeisin suoritus tuottaa parhaat pisteet, koska vain viimeisimmät pisteet jäävät voimaan.
+Submit the task using Git's `add`, `commit`, and `push` commands as you have done with previous tasks. You can submit your solution for evaluation as many times as needed until the task deadline. However, ensure that your latest submission yields the best scores, as only the most recent scores will be considered.
 
+## Git change log
 
-## Gitin muutoslogi
-
-Kuten olet kurssilla tähän mennessä oppinut, Git pitää kirjaa repositoriossa tapahtuvista muutoksista committien avulla. Kullakin commitilla on tekijä, id, viesti, sekä "parent", joka osoittaa aina edeltävään committiin. Yksi tapa esittää projektin historiaa tekstimuodossa voisikin olla seuraava esitystapa:
+As you have learned in the course so far, Git keeps track of changes in the repository using commits. Each commit has an author, id, message, and a "parent" that always points to the previous commit. One way to represent the project's history in text form could be the following format:
 
 ```
 Commit 7b9f1e by NewbieNate (Parent: None)
@@ -64,9 +63,9 @@ Merge branch 'refactor' into master
 Merging the refactor changes. Thanks for the help, team! Learning and growing together.
 ```
 
-Tässä tehtävässä käsiteltävä data koostuu monirivisistä merkkijonoista, jotka esittävät kuvitteellisten projektien muutoshistoriaa yllä esitetyssä muodossa. Laajempi esimerkki löytyy erillisestä tiedostosta [commit-log-example.txt](./commit-log-example.txt).
+In this task, the data consists of multi-line strings that represent the change history of fictional projects in the format described above. A more extensive example can be found in a separate file [commit-log-example.txt](./commit-log-example.txt).
 
-Esimerkiksi `ohjelmointi2`-nimisen käyttäjän yksittäinen commit, jonka id on `d4e5f6`, voisi näyttää seuraavalta:
+For example, a single commit by a user named `ohjelmointi2` with the id `d4e5f6` might look like this:
 
 ```java
 """
@@ -76,9 +75,9 @@ The message is two lines long...
 """
 ```
 
-Huomaa, että ensimmäisen commitin "Parent" on `"None"`. Kaikki muut commit id:t on esitetty tehtävässä kuuden merkin pituisina [aakkosnumeerisinä](https://fi.wiktionary.org/wiki/aakkosnumeerinen) merkkijonoina. "Commit messagen" pituus voi vaihdella, siihen voi kuulua yksi tai useampia rivejä, ja siinä saattaa olla mitä tahansa erikoismerkkejä, mukaan lukien emoji-merkkejä.
+Note that the "Parent" of the first commit is `"None"`. All other commit ids are presented in the task as six-character [alphanumeric](https://en.wikipedia.org/wiki/Alphanumericals) strings. The length of the "Commit message" can vary, it can include one or more lines, and it may contain any special characters, including emoji.
 
-Git-repositorioiden versiohistoriaa esitetään usein myös graafisessa muodossa, jossa samat commitit voitaisiin esittää esimerkiksi seuraavasti:
+The version history of Git repositories is often also presented in graphical form, where the same commits could be represented, for example, as follows:
 
 ```mermaid
 gitGraph
@@ -95,10 +94,9 @@ gitGraph
 ```
 
 > [!IMPORTANT]
-> Vaikka tässä tehtävässä esimerkkinä on Gitin historian käsitteleminen, **sinun ei tarvitse käyttää yhtään uusia Git-komentoja**. Kaikki tehtävän logiikka toteutetaan käyttäen Javan merkkijonoja, metodeja ja luokkia.
+> Although this task uses Git history as an example, **you do not need to use any new Git commands**. All task logic is implemented using Java strings, methods, and classes.
 > 
-> Tyypillisesti isommassa projektissa on samanaikaisesti useampia kehityshaaroja, jolloin historia näyttää myös monimutkaisemmalta. Tällä kurssilla käytämme ainoastaan yhtä pääkehityshaaraa, joka on nimeltään `master` tai `main`.
-
+> Typically, in a larger project, there are multiple development branches simultaneously, making the history appear more complex. In this course, we will use only one main development branch, named `master` or `main`.
 
 ## Osa 0: ratkaisun suunnittelu *(valmistelut)*
 
