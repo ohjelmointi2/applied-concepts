@@ -1,23 +1,21 @@
-# Soveltava tehtävä: "Commit History"
+# Applied task: "Commit History"
 
-Tämä kurssin viimeinen tehtävärepositorio sisältää erilaisia harjoitteita, joiden avulla syvennetään ja sovelletaan aikaisempien viikkojen aiheita. Tehtävien ratkaisemiseksi on annettu enemmän vapauksia, joten voitkin ratkaista ne monilla eri tavoilla.
+This final course assignment repository contains various exercises designed to deepen and apply the topics from previous weeks. You have more freedom in solving these tasks, so you can approach them in many different ways.
 
-Suosittelemmekin pohtimaan, olisiko erillisten luokkien luominen, stream-operaatiot tai vaikka map-tietorakenne avuksi eri ongelmien ratkaisemisessa.
+We recommend considering whether creating separate classes, stream operations, or even a map data structure might help in solving different problems.
 
+## Testing the tasks
 
-## Tehtävien testaaminen
+This task package includes ready-made tests to ensure the functionality of your solutions. The ready-made tests ensure that the end result of your code is correct. Since the freedom in solving the tasks is greater than before, you will likely need various helper methods and classes. To ensure their functionality, we recommend writing your own tests as well. Alternatively, you can write your own main methods to examine the functionality of your code.
 
-Tämä tehtäväpaketti sisältää valmiita testejä ratkaisujesi toimivuuden varmistamiseksi. Valmiit testit varmistavat, että koodisi lopputulos on oikea. Koska vapaudet tehtävän ratkaisujen suhteen ovat aiempaa vapaammat, tulet todennäköisesti tarvitsemaan erilaisia apumetodeja ja -luokkia, joiden toimivuuden varmistamiseksi suosittelemme kirjoittamaan lisäksi omia testejä. Vaihtoehtoisesti voit kirjoittaa omia main-metodeja, joiden avulla tutkit koodisi toimivuutta.
+Familiarizing yourself with the tests is not necessary to complete the task, but running the tests is highly recommended to get feedback on the functionality of your solutions.
 
-Testeihin perehtyminen ei ole tehtävän suorittamiseksi välttämätöntä, mutta testien suorittaminen on ehdottomasti suositeltua, jotta saat palautetta tekemiesi ratkaisujen toimivuudesta.
-
-Voit suorittaa yksikkötestit tuttuun tapaan koodieditorisi testaustyökalulla tai Gradle-automaatiotyökalulla.
+You can run the unit tests as usual with your code editor's testing tool or with the Gradle automation tool.
 
 > [!NOTE]
-> Tehtävänannossa määritettyjen metodien ja luokkien nimien, parametrien tai paluuarvojen muuttaminen ei ole sallittua, mutta **suosittelemme** että toteutat niiden lisäksi omia luokkia ja metodeita.
+> Changing the names, parameters, or return values of the methods and classes specified in the assignment is not allowed, but we **recommend** that you implement your own classes and methods in addition to them.
 >
-> Saat kirjoittaa halutessasi lisää testejä, mutta älä muuta tai poista valmiiksi kirjoitettuja testejä.
-
+> You may write additional tests if you wish, but do not modify or delete the pre-written tests.
 
 ## Tehtävän palauttaminen
 
