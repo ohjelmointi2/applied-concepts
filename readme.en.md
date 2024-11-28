@@ -141,27 +141,27 @@ This part of the task is tested with two separate test classes: [`GetContributor
 .\gradlew.bat test --tests GroupCommitIdsTest
 ```
 
-## Osa 3: Logitiedoston lukeminen, järjestäminen ja tulostaminen *(edistynyt, 40 %)*
+## Part 3: reading, organizing, and printing the log file *(advanced, 40 %)*
 
-Tehtävän viimeisessä osassa käsiteltävänäsi on "commit log"-tiedosto [pizza-commits.txt](./pizza-commits.txt), jonka sisältämät **commitit ovat epäjärjestyksessä**. Lokitiedoston jokaisessa commitissa on tieto sitä edeltävästä "Parent"-commitista, joiden avulla sinun tulee tulostaa commitit kronologisessa järjestyksessä.
+In the final part of the task, you will handle a "commit log" file [pizza-commits.txt](./pizza-commits.txt), where the **commits are out of order**. Each commit in the log file contains information about its preceding "Parent" commit, which you will use to print the commits in chronological order.
 
-Ohjelmasi suorituksen tulee käynnistyä tehtäväpohjassa valmiina olevasta Java-luokasta [part03.Main](./src/main/java/part03/Main.java). `main`-metodin lisäksi saat toteuttaa haluamasi apumetodit ja -luokat vapaasti. Kannustamme kirjoittamaan myös omia testejä ohjelmasi eri osien toimivuuden varmistamiseksi.
+Your program execution should start from the Java class [part03.Main](./src/main/java/part03/Main.java) provided in the task template. In addition to the `main` method, you are free to implement any helper methods and classes as you see fit. We encourage you to write your own tests to ensure the functionality of different parts of your program.
 
-Sinulla on vapaat kädet toteuttaa ohjelman sisäinen logiikka parhaaksi katsomallasi tavalla, kunhan se täyttää seuraavat toiminnallisuudet:
+You have the freedom to implement the internal logic of the program in the way you deem best, as long as it meets the following functionalities:
 
-* Ohjelmasi ei saa kysyä käyttäjältä syötteitä eikä tulostaa tehtävänantoon kuulumattomia tekstejä.
-* Ohjelmasi tulee lukea commit-historia tehtäväpohjan tiedostosta nimeltä [pizza-commits.txt](./pizza-commits.txt). Tiedoston sisältö noudattaa samaa formaattia kuin aikaisemmat tehtävät.
-* Ohjelmasi tulee tulostaa tiedostosta luetut commitit järjestyksessä siten, että commit, jonka "Parent" on "None", esitetään ensimmäisenä. Seuraavien committien tulee aina seurata omaa "Parent"-committiaan.
-* Et saa muokata annettua tekstitiedostoa, vaan ohjelmasi on toimittava alkuperäisellä tiedostolla.
+* Your program should not ask the user for inputs or print texts unrelated to the task description.
+* Your program should read the commit history from the file named [pizza-commits.txt](./pizza-commits.txt) provided in the task template. The file content follows the same format as previous tasks.
+* Your program should print the commits read from the file in order, starting with the commit whose "Parent" is "None". Subsequent commits should always follow their respective "Parent" commits.
+* You must not modify the given text file; your program should work with the original file.
 
-Voit suorittaa main-luokan joko koodieditorisi käyttöliittymässä tai Gradlen avulla:
+You can run the main class either through your code editor's interface or using Gradle:
 
 ```
 ./gradlew run       # unix
 .\gradlew.bat run   # windows
 ```
 
-Tehtävä tarkastetaan [`PizzaCommitsTest`-yksikkötestiluokalla](./src/test/java/part03/PizzaCommitsTest.java), jonka voit suorittaa koodieditorillasi tai Gradlella:
+The task is checked with the [`PizzaCommitsTest`](./src/test/java/part03/PizzaCommitsTest.java) unit test class, which you can run with your code editor or Gradle:
 
 ```
 ./gradlew test --tests PizzaCommitsTest        # unix
