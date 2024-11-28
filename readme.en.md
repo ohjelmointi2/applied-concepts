@@ -104,28 +104,32 @@ Aikaisemmista tehtävärepositorioista poiketen tätä tehtävää ei kannata v�
 
 Esimerkiksi uuden `Commit`-luokan luominen voi tuntua alussa "ylimääräiseltä työltä", mutta se voi olla pidemmän päälle kannattavaa. Voit myös jatkokehittää erilaisia apuluokkia tehtävää edistäessäsi oman harkintasi mukaan.
 
+## Part 0: solution design *(preparation)*
 
-## Osa 1: Commit ids *(soveltava, 20 %)*
+Unlike previous task repositories, it might not be advisable to complete this task one step at a time. Instead, you should familiarize yourself with the entire task in advance and plan how to implement reusable solutions that will help solve all parts of the task.
 
-[`CommitIds`](./src/main/java/part01/CommitIds.java)-luokassa on metodi nimeltä `getCommitIds`. Tämä metodi saa parametrinaan monirivisen merkkijonon, joka sisältää edellä kuvitteellisen projektin Git-login ylempänä esitetyssä muodossa.
+For example, creating a new `Commit` class might seem like "extra work" at first, but it can be beneficial in the long run. You can also further develop various helper classes as you progress with the task, according to your own judgment.
 
-Täydennä luokkaan ratkaisu, joka käsittelee merkkijonoa ja palauttaa siinä esiintyvien committien id:t. Tarkemman kuvauksen metodin toiminnasta löydät metodin kommenteista.
+## Part 1: commit ids *(applying, 20 %)*
 
-Tehtävän tämä osa testataan [`CommitIdsTest`-testiluokalla](./src/test/java/part01/CommitIdsTest.java), jonka voit suorittaa joko koodieditorisi testaustyökalulla tai Gradlella:
+The [`CommitIds`](./src/main/java/part01/CommitIds.java) class has a method named `getCommitIds`. This method takes a multi-line string as a parameter, which contains the Git log of the fictional project in the format described above.
+
+Complete the class with a solution that processes the string and returns the ids of the commits present in it. You can find a more detailed description of the method's functionality in the method comments.
+
+This part of the task is tested with the [`CommitIdsTest`](./src/test/java/part01/CommitIdsTest.java) test class, which you can run either with your code editor's testing tool or with Gradle:
 
 ```
 ./gradlew test --tests CommitIdsTest        # unix
 .\gradlew.bat test --tests CommitIdsTest    # windows
 ```
 
+## Part 2: Contributors and statistics *(advanced, 20 % + 20 %)*
 
-## Osa 2: Contributors and statistics *(edistynyt, 20 % + 20 %)*
+The [`Contributors`](./src/main/java/part02/Contributors.java) class has methods named `getContributors` and `groupCommitIdsByContributors`. Like in the previous part, these methods also take a multi-line string as a parameter, which contains the Git log of the fictional project in the format described above.
 
-[`Contributors`](./src/main/java/part02/Contributors.java)-luokassa on metodit nimeltä `getContributors` sekä `groupCommitIdsByContributors`. Kuten edellisessä osassa, myös nämä metodit saavat parametrinaan monirivisen merkkijonon, joka sisältää edellä kuvitteellisen projektin Git-login ylempänä esitetyssä muodossa.
+Complete the class with solutions that fulfill the functionalities mentioned in the method comments.
 
-Täydennä luokkaan ratkaisut, jotka täyttävät näiden metodien kommenteissa mainitut toiminnallisuudet.
-
-Tehtävän tämä osa testataan kahdella erillisellä testiluokalla: [`GetContributorsTest`](./src/test/java/part02/GetContributorsTest.java) ja [`GroupCommitIdsTest`](./src/test/java/part02/GroupCommitIdsTest.java). Voit suorittaa testit joko koodieditorisi testaustyökalulla tai Gradlella:
+This part of the task is tested with two separate test classes: [`GetContributorsTest`](./src/test/java/part02/GetContributorsTest.java) and [`GroupCommitIdsTest`](./src/test/java/part02/GroupCommitIdsTest.java). You can run the tests either with your code editor's testing tool or with Gradle:
 
 ```
 # unix
@@ -136,7 +140,6 @@ Tehtävän tämä osa testataan kahdella erillisellä testiluokalla: [`GetContri
 .\gradlew.bat test --tests GetContributorsTest
 .\gradlew.bat test --tests GroupCommitIdsTest
 ```
-
 
 ## Osa 3: Logitiedoston lukeminen, järjestäminen ja tulostaminen *(edistynyt, 40 %)*
 
