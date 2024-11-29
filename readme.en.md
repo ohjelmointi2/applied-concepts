@@ -1,4 +1,4 @@
-# Applied task: "Commit History"
+# Applied task: "Commit history"
 
 This final course assignment repository contains various exercises designed to deepen and apply the topics from previous weeks. You have more freedom in solving these tasks, so you can approach them in many different ways.
 
